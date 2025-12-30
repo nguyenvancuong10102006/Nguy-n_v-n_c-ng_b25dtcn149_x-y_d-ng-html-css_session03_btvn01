@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Form đặt mua tài liệu lập trình</h2>
+    <p action="/bài1.html" method="POST">
+       <p>Chọn tài liệu:
+        <select name="nalung">
+            <option value="apoi">Tài Liệu môn HTML &amp; CSS</option>
+            <option value="oibe">Tài liệu môn Javascipt</option>
+        </select>
+        </p>
+        <p>
+            <label for="okngay">Số lượng</label>
+            <input type="number" id="okngay" name="okngay" min="1" max="10"/>
+            <br/>
+            </p>
+        </p>
+        <label for="comment">Ghi chú</label>
+        <textarea type="comment" id="comment" name="comment" rows="4" cols="20"></textarea>
+    </p>
+    <p>
+    <label for="comment">Địa chỉ giao hàng</label>
+    <textarea type="comment" id="comment" name="comment" rows="4" cols="20"></textarea>
+    </p>
+    <input type="submit" value="đặt mua"/>
+    </form>
+
+</body>
+</html>

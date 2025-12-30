@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Form Đặt lịch tư vấn lịch học</h2>
+    <br/>
+    <form action="/bài2.html" method="POST">
+        <p>
+            <label for="name">Họ và Tên</label>
+            <input type="search" id="name" name="name" placeholder="họ tên"/>
+            <br/>
+        </p>
+        <p>
+            <label for="date">Chọn ngày giờ</label>
+            <input type="datetime-local" id="date" name="date" />
+            <br/>
+        </p>
+        <p>loại dịch vụ
+            <select name="butome"  size="2">
+                <option value="oppo">Tư vấn học tập</option>
+                <option value="other">hướng nghiệp</option>
+            </select>
+            </p>
+            <p>
+        <label for="comment">Ghi chú:</label>
+        <textarea type="comment" id="comment" name="comment" rows="2" cols="20"></textarea>
+        <br/>
+        </p>
+        <input type="submit" value="đặt lịch"/>
+    </form>
+</body>
+</html>

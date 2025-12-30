@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method = "get">
+        <label for="name">Họ và tên</label>
+        <input type="text" name="fullName" id="name" value="" placeholder="VD: Nguyễn Văn A">
+        <br><br>
+        <label for="age">Tuổi:</label>
+        <input type="number" name="age" id="age"><br><br>
+        <label for="phone">Số điện thoại:</label>
+        <input type="tel" name="phone" id="phone" min="10" max="15"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password"><br><br>
+        <label for="url">Website:</label>
+        <input type="url" name="url" id="url"><br><br>
+        <label type="datetime">Ngày tháng năm sinh</label>
+        <input type="datetime-local" name="dob" id="dob"><br><br>
+        <label for="color">Màu yêu thích:</label>
+        <input type="color" name="color" id="color"><br><br>
+        <label for="range">Tiến độ công việc</label>
+        <input type="range" name="progress" id="range" min="0" max="100"><br><br>
+        <label for="img">Ảnh đại diện</label>
+        <input type="file" name="img" id="img"><br><br>
+        <label>Sở thích:</label><br>
+        <label><input type="checkbox" name="terms" id="terms">Đá bóng</label>
+        <label><input type="checkbox" name="terms" id="terms">Bơi lội</label>
+        <label><input type="checkbox" name="terms" id="terms">Du lịch
+        <br><br>
+        <label>Giới tính:</label><br>
+        <label><input type="radio" name="gender" id="male">Nam</label>
+        <label><input type="radio" name="gender" id="female">Nữ</label>
+        <label><input type="radio" name="gender" id="other">Khác</label>
+        <br><br>
+        <label>Nơi ở:</label>
+        <select name="province">
+            <option value="province">Chọn tỉnh</option>
+            <option value="hn">Hà Nội</option>
+            <option value="hcm">Thanh Hóa</option>
+            <option value="dn">Nghệ An</option>
+            <option value="hp">Ninh Bình</option>
+        </select>
+        <br><br>
+        <label for="text">Mô tả bản thân:</label>
+        <textarea name="description" id="text" rows="3" cols="30"></textarea>
+        <br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>

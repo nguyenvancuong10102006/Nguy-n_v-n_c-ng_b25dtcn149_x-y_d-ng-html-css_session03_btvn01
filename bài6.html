@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h2 style="text-align:center">Trang wed Hội Thảo</h2>
+   <hr/>
+   <form action="/bài5.html" method="POST">
+     <table align="center" cellpadding="6">
+        <tr>
+            <td><label for=search>Họ và Tên</label></td>
+            <td><input type="search" id="search" name="search" placeholder="họ tên"/></td>
+        </tr>
+        <tr>
+            <td><label for="patter">Ngày sinh:</label></td>
+            <td><input type="date" id="patter" name="patter"/></td>
+        </tr>
+        <tr>
+            <td>
+                <laber><input type="radio" name="select" value="colspan"/>Nam</laber>
+                <label><input type="radio" name="select" value="rowspan"/>Nữ</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="placeholder">Số điện thoại</label></td>
+            <td><input type="tel" id="placoholder" name="placeholder" pattern="[0-9]-{3}-[0-9]{2}-[0-9]{3}" placeholder="số điện thoại"/></td>
+        </tr>
+        <tr>
+            <td><label for="Email">Email</label></td>
+            <td><input type="Email" id="Email" name="Email" placeholder="cuongblogs@gmail.com"/></td>
+        </tr>
+        <tr>
+            <td for="search">Tên công ty:</td>
+            <td><input type="search" id="search" name="search" placeholder="Công ty tinh doanh nghiệp"/></td>
+        </tr>
+        <tr>
+            <td>Vai trò trong công ty:</td>
+            <td>
+                <select name="submit">
+                <option value="gd">Giám đốc điều hành(CEO)</option>
+                <option value="nv">NHân viên tổ 1</option>
+                <option value="ql">quản lí bọ nội vụ</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Quy mô công ty</td>
+            <td>
+                <select name="doanh">
+                    <option value="align">Doanh nghiệp nhỏ</option>
+                    <option value="certer">Doanh nghiệp lớn</option>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="cellpadding">Ngành nghề công ty</label></td>
+            <td><input type="select" id="cellpadding" name="cellpadding"/></td>
+        </tr>
+        <tr>
+            <td><label for="certer">Lý do tham gia câu lạc bộ</label></td>
+            <td><input type="comment" id="certer" name="certer" placeholder/></td>
+        </tr>
+        <tr>
+            <td><label for="align">Kinh doanh lãnh đạo:</label></td>
+            <td><input type="comment" id="align" name="align" placeholder="kinh doanh lãnh đạo" /></td>
+        </tr>
+        <tr>
+            <td for="align">Mục tiêu tham gia câu lạc bộ:</td>
+            <td><input type="comment" id="align" name="align"/></td>
+        </tr>
+        <tr>
+            <td>Chương trình sự kiện mong muốn tham gia</td>
+            <td>
+                <label><input type="checkbox" name="align" value="cellpadding"/>Networking</label>
+                <label><input type="checkbox" name="align" value="tel"/>Workshops</label>
+                <label><input type="checkbox" name="align" value="align"/>Hội Thảo</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Đang ký nhận bản tin:</td>
+            <td>
+                <label><input type="checkbox" name="tel" value="co"/>Có</label>
+            </td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Đăng ký hội viên"/></td>
+        </tr>
+     </table>
+   </form>
+</body>
+</html>
