@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Đăng ký sinh viên mới</h1>
+    <table align="center" cellpadding="10">
+        <form>
+        <tr>
+            <td><label for="search">Họ và tên</label></td>
+            <td><input type="search" id="search" name="search"/></td>
+        </tr>
+        <tr>
+            <td><label for="date">Ngày sinh đầy đủ:</label></td>
+            <td><input type="date" id="date" name="date"/></td>
+        </tr>
+        <tr>
+            <td><label for="month">Tháng và năm nhập học</label></td>
+            <td><input type="month" id="month" name="month"/></td>
+        </tr>
+        <tr>
+            <td><label for="time">Thời gian nhập học:</label></td>
+            <td><input type="time" id="time" name-time/></td>
+        </tr>
+        <tr>
+            <td>Giới tính:</td>
+            <td><label><input type="radio" name="okngay" value="nam"/>Nam</label>
+            <label><input type="radio" name="okngay" value="nữ"/>Nữ</label>
+            <label><input type="radio" name="okngay" value="Khác"/>Khác</label>
+        </td>
+        </tr>
+        <tr>
+            <td><label for="email">Email sinh viên:</label></td>
+            <td><input type="email" id="email" name="email" placeholder="sinhvien@gmail.com"/></td>
+        </tr>
+        <tr>
+            <td><label for="comment">Mật khẩu:</label></td>
+            <td><input type="password" id="comment" name="comment"/></td>
+        </tr>
+        <tr>
+            <td><label for="password">Mục tiêu học tập</label></td>
+            <td><textarea type="comment" id="password" name="password" value="mốn trở thành lập trình viên được cả nước và thế giới biết đến"></textarea></td>
+        </tr>
+        <tr>
+            <td>Cơ sở:</td>
+            <td>
+                <select name="comment">
+                    <option value="Hà Nội">Hà Nội</option>
+                    <option value="Hồ chi m,inh">HỒ CHÍ MINH</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="file">Ảnh thẻ sinh viên:</label></td>
+            <td><input type="file" id="file" name="file"/></td>
+        </tr>
+        <tr>
+            <td>Môn học yêu thích</td>
+            <td>
+                <label><input type="checkbox" name="ok" value="ko"/>toán học</label>
+                <lable><input type="checkbox" name="ok" value="koo"/>Lập trình</lable>
+                <label><input type="checkbox" name="ok" value="tieng"/>Tiếng Anh</label>
+                <label><input type="checkbox" name="ok" value="vat"/>Vật Lí</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="renge">Tiến độ học tập</label></td>
+            <td><input type="range" id="renge" name="renge" min="0" max="20"/></td>
+        </tr>
+        <tr>
+            <td><label for="number">Năm học thứ</label></td>
+            <td><input type="number" id="number" name="number" min="1" max="5"/></td>
+        </tr>
+        <tr>
+            <td><label for="search">Tìm kiếm khóa học</label></td>
+            <td><input type="search" id="search" name="search" value="Khoa học máy tính"/></td>
+        </tr>
+        <tr>
+            <td><label for="color">Màu sắc yêu thích</label></td>
+            <td><input type="color" id="color" name="color"/></td>
+        </tr>
+        <tr>
+            <td>
+                <input type="reset" value="hủy"/>
+                <input type="button" value="Làm mới"/>
+                <input type="submit" value="Gửi"/>
+            </td>
+        </tr>
+        </form>
+    </table>
+</body>
+</html>
